@@ -1,0 +1,34 @@
+import java.util.*;
+class Node{
+int data;
+Node next;
+}
+public class Main{
+public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+ Node first=new Node();
+ Node second=new Node();
+ Node third=new Node();
+ int count=0;
+ Node temp=first;
+
+
+System.out.println("The first node is:");
+ first.data=sc.nextInt();
+System.out.println("The second node is:")a;
+ second.data=sc.nextInt();
+System.out.println("The third node is:");
+ third.data=sc.nextInt();
+
+
+ first.next=second;
+ second.next=third;
+while(temp!=null)
+{
+count++;
+temp=temp.next;
+}
+System.out.println("The total count is:" + count);
+
+  }}
